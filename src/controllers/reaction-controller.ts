@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import Thought from '../models/Thought';
-import Reaction from '../models/Reaction';
+import Thought from '../models/Thought.js';
+import Reaction from '../models/Reaction.js';
 
 // Create a reaction
 export const createReaction = async (req: Request, res: Response) => {

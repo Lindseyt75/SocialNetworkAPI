@@ -12,8 +12,8 @@
 
 // remove friend from friend list
 import { Request, Response } from 'express';
-import User from '../models/User';
-import Thought from '../models/Thought';
+import User from '../models/User.js';
+import Thought from '../models/Thought.js';
 
 // Get all users
 export const getAllUsers = async (_req: Request, res: Response) => {

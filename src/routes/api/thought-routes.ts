@@ -12,8 +12,8 @@ import {
   createThought,
   updateThought,
   deleteThought,
-} from '../../controllers/thought-controller';
-import { createReaction, deleteReaction } from '../../controllers/reaction-controller';
+} from '../../controllers/thought-controller.js';
+import { createReaction, deleteReaction } from '../../controllers/reaction-controller.js';
 
 const router = express.Router();
 

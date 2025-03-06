@@ -2,7 +2,7 @@
 // /api/users/:userId
 // /api/users/:userId/friends/:friendId
 import express from 'express';
-import { getAllUsers, getUserById, createUser, updateUser, deleteUser, addFriend, removeFriend, } from '../../controllers/user-controller';
+import { getAllUsers, getUserById, createUser, updateUser, deleteUser, addFriend, removeFriend, } from '../../controllers/user-controller.js';
 const router = express.Router();
 router.route('/').get(getAllUsers).post(createUser);
 router
