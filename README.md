@@ -1,11 +1,11 @@
 # SocialNetworkAPI
 
-User Story
+# User Story
 AS A social media startup
 I WANT an API for my social network that uses a NoSQL database
 SO THAT my website can handle large amounts of unstructured data
 
-Acceptance Criteria
+# Acceptance Criteria
 GIVEN a social network API
 WHEN I enter the command to invoke the application
 THEN my server is started and the Mongoose models are synced to the MongoDB database
@@ -19,30 +19,30 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 Github repo:
 https://github.com/Lindseyt75/SocialNetworkAPI.git
 
-Install
-Once cloned
-Do npm install
-Then insure ypu have Mongo DB installed and configured.
-Once that is done do npm run start and that will start your server on port 3001.
-Then you are ready and here are your routes.
+# Steps for Use
+1. Clone Repo
+2. Open the terminal and do npm install
+3. Then insure ypu have Mongo DB installed and configured.
+4. Once that is done do npm run start and that will start your server on port 3001.
+5. Then you are ready and here are your routes.
 
-User Routes
-GET /api/users (This will get all users)
-POST /api/users (This will create a new user)
-GET /api/users/:userId (This will get a single user by their ID)
-PUT /api/users/:userId (You can update a user by their ID)
-DELETE /api/users/:userId (You can also delete a user by their ID)
-POST /api/users/:userId/friends (You can add a friend to the user's friend list)
-DELETE /api/users/:userId/friends/:friendId (You can also remove a user's friend from the list)
+# User Routes
+1. GET /api/users (This will get all users)
+2. POST /api/users (This will create a new user)
+3. GET /api/users/:userId (This will get a single user by their ID)
+4. PUT /api/users/:userId (You can update a user by their ID)
+5. DELETE /api/users/:userId (You can also delete a user by their ID)
+6. POST /api/users/:userId/friends (You can add a friend to the user's friend list)
+7. DELETE /api/users/:userId/friends/:friendId (You can also remove a user's friend from the list)
 
-Thought Routes
-GET /api/thoughts (This will get all thoughts)
-POST /api/thoughts (This will get a single thought by their ID)
-GET /api/thoughts/:thoughtId (This will create a new thought)
-PUT /api/thoughts/:thoughtId (You can update a thought by their ID)
-DELETE /api/thoughts/:thoughtId(You can also delete a thought by their ID)
-POST /api/thoughts/:thoughtId/reactions (You can add a reaction to a thought)
-DELETE /api/thoughts/:thoughtId/reactions/:reactionId (You can also remove a reaction from a thought)
+# Thought Routes
+1. GET /api/thoughts (This will get all thoughts)
+2. POST /api/thoughts (This will get a single thought by their ID)
+3. GET /api/thoughts/:thoughtId (This will create a new thought)
+4. PUT /api/thoughts/:thoughtId (You can update a thought by their ID)
+5. DELETE /api/thoughts/:thoughtId(You can also delete a thought by their ID)
+6. POST /api/thoughts/:thoughtId/reactions (You can add a reaction to a thought)
+7. DELETE /api/thoughts/:thoughtId/reactions/:reactionId (You can also remove a reaction from a thought)
 
 Insomnia Screenshots
 ![Insomnia](image-1.png)
