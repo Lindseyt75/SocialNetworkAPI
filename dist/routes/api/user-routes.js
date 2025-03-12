@@ -1,15 +1,15 @@
-// /api/users
-// /api/users/:userId
-// /api/users/:userId/friends/:friendId
 import express from 'express';
 import { getAllUsers, getUserById, createUser, updateUser, deleteUser, addFriend, removeFriend, } from '../../controllers/user-controller.js';
 const router = express.Router();
+// /api/users
 router.route('/').get(getAllUsers).post(createUser);
+// /api/users/:userId
 router
     .route('/:userId')
     .get(getUserById)
     .put(updateUser)
     .delete(deleteUser);
+// /api/users/:userId/friends/:friendId
 router
     .route('/:userId/friends/:friendId')
     .post(addFriend)

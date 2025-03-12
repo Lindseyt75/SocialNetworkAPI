@@ -1,4 +1,3 @@
-// get all thoughts
 import Thought from '../models/Thought.js';
 import User from '../models/User.js';
 // Get all thoughts
