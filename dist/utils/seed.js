@@ -1,5 +1,5 @@
 import db from '../config/connection.js';
-import cleanDB from './cleanDB';
+import cleanDB from './cleanDB.js';
 import User from '../models/User.js';
 import Thought from '../models/Thought.js';
 const seedDB = async () => {

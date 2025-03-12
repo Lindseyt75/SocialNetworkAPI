@@ -10,10 +10,10 @@ app.use(routes);
 app.listen(PORT, () => {
     console.log(`API server running on port ${PORT}!`);
 });
-db().then(() => {
-    app.listen(PORT, () => {
-        console.log(`API server running on port ${PORT}!`);
-    });
-}).catch((error) => {
-    console.error('Database connection failed:', error);
-});
+// db().then(() => {
+//   app.listen(PORT, () => {
+//     console.log(`API server running on port ${PORT}!`);
+//   });
+// }).catch((error) => {
+//   console.error('Database connection failed:', error);
+// });
