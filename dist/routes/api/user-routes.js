@@ -1,8 +1,8 @@
-import express from 'express';
-import { getAllUsers, getUserById, createUser, updateUser, deleteUser, addFriend, removeFriend, } from '../../controllers/user-controller.js';
-const router = express.Router();
+import { Router } from 'express';
+const router = Router();
+import { getUsers, getUserById, createUser, updateUser, deleteUser, addFriend, removeFriend, } from '../../controllers/user-controller.js';
 // /api/users
-router.route('/').get(getAllUsers).post(createUser);
+router.route('/').get(getUsers).post(createUser);
 // /api/users/:userId
 router
     .route('/:userId')

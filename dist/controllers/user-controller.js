@@ -1,7 +1,7 @@
 import User from '../models/User.js';
 import Thought from '../models/Thought.js';
 // Get all users
-export const getAllUsers = async (_req, res) => {
+export const getUsers = async (_req, res) => {
     try {
         const users = await User.find().select('-__v');
         res.json(users);
