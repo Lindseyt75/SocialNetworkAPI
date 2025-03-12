@@ -29,20 +29,20 @@ https://github.com/Lindseyt75/SocialNetworkAPI.git
 # User Routes
 1. GET /api/users (This will get all users)
 2. POST /api/users (This will create a new user)
-3. GET /api/users/:userId (This will get a single user by their ID)
-4. PUT /api/users/:userId (You can update a user by their ID)
-5. DELETE /api/users/:userId (You can also delete a user by their ID)
-6. POST /api/users/:userId/friends (You can add a friend to the user's friend list)
-7. DELETE /api/users/:userId/friends/:friendId (You can also remove a user's friend from the list)
+3. GET /api/users/(use user ID)userId (This will get a single user by their ID)
+4. PUT /api/users/(use user ID)userId (You can update a user by their ID)
+5. DELETE /api/users/(use user ID)userId (You can also delete a user by their ID)
+6. POST /api/users/(use user ID)userId/friends (You can add a friend to the user's friend list)
+7. DELETE /api/users/(use user ID)userId/friends/(use friend ID)friendId (You can also remove a user's friend from the list)
 
 # Thought Routes
 1. GET /api/thoughts (This will get all thoughts)
 2. POST /api/thoughts (This will get a single thought by their ID)
-3. GET /api/thoughts/:thoughtId (This will create a new thought)
-4. PUT /api/thoughts/:thoughtId (You can update a thought by their ID)
-5. DELETE /api/thoughts/:thoughtId(You can also delete a thought by their ID)
-6. POST /api/thoughts/:thoughtId/reactions (You can add a reaction to a thought)
-7. DELETE /api/thoughts/:thoughtId/reactions/:reactionId (You can also remove a reaction from a thought)
+3. GET /api/thoughts/(use thought ID)thoughtId (This will create a new thought)
+4. PUT /api/thoughts/(use thought ID)thoughtId (You can update a thought by their ID)
+5. DELETE /api/thoughts/(use thought ID)thoughtId(You can also delete a thought by their ID)
+6. POST /api/thoughts/(use thought ID)thoughtId/reactions (You can add a reaction to a thought)
+7. DELETE /api/thoughts/(use thought ID)thoughtId/reactions/(use reaction ID)reactionId (You can also remove a reaction from a thought)
 
 Insomnia Screenshots
 ![Insomnia](image-1.png)
