@@ -19,12 +19,16 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 Github repo:
 https://github.com/Lindseyt75/SocialNetworkAPI.git
 
+Video walk through
+https://drive.google.com/file/d/1h4E_aBRCKzbouujdFrVQYpcuMW1xBzpm/view
+
 # Steps for Use
 1. Clone Repo
 2. Open the terminal and do npm install
-3. Then insure ypu have Mongo DB installed and configured.
-4. Once that is done do npm run start and that will start your server on port 3001.
-5. Then you are ready and here are your routes.
+3. Then insure you have Mongo DB installed and configured.
+4. Next do a npm run seed.
+5. Once that is done do npm run start and that will start your server on port 3001.
+6. Then you are ready and here are your routes.
 
 # User Routes
 1. GET /api/users (This will get all users)

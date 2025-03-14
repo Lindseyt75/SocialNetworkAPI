@@ -16,10 +16,6 @@ export const createReaction = async (req, res) => {
         console.log(err);
         return res.status(500).json(err);
     }
-    //   return res.status(201).json(reaction); // Respond with the created reaction
-    // } catch (err) {
-    //   return res.status(500).json({ message: (err as Error).message || 'Internal server error' });
-    // }
 };
 // Delete reaction by reactionId
 export const deleteReaction = async (req, res) => {
